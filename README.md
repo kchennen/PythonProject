@@ -11,4 +11,6 @@ Python project template
     ├── pythonproject      <- Source code of interest for this project.
     │   ├── __init__.py    <- Makes a Python module.
     │   └── __main__.py    <- Starting point to run the project in CLI.
+    ├── requirements.txt   <- Lsit of the project external dependencies.
     ├── setup.py           <- Package and distribution management.
+    
