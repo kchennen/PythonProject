@@ -1,4 +1,14 @@
+import os
 from setuptools import setup
+
+
+def read(fname):
+    return open(os.path.join(os.path.dirname(__file__), fname)).read()
+
+
+def requirements():
+    return [f for f in read('requirements.txt').splitlines() if not f.startswith('#')]
+
 
 setup(
     name='PythonProject',                                       # name of the package
@@ -9,6 +19,7 @@ setup(
     description='Python project template',                      # short, summary description of the package
     license='MIT',                                              # license for the package
     download_url='https://github.com/kchennen/PythonProject',   # location where the release version of this package may be downloaded
+    install_requires=requirements(),                            # install external packages as dependencies
     packages=['pythonproject'],
     scripts=['bin/pythonproject']
 )
