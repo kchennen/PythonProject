@@ -1,0 +1,86 @@
+# Set site dir
+#site_dir: public
+
+# Main title of project documentation
+site_name: PythonProject
+site_url: https://<username>.github.io/PythonProject/
+
+# Add meta tags to the generated HTML header
+site_description: PythonProject is a template for Python projets.
+site_author: AuthorName
+
+# Copyright text for the footer
+copyright: Copyright &copy; 2020 <a href="author@mail.com">Author</a>. Created for your pleasure and my leisure!
+
+# Add Edit button for documentation
+edit_uri: edit/master/docs/
+
+# Provide a link to the project repository
+repo_name: 'GitHub'
+repo_url: https://github.com/kchennen/PythonProject
+
+# Define documentation theme
+theme:
+    # Define documentation theme with Material for MkDocs
+    name: material
+    palette:
+        scheme: default
+        primary: blue
+        accent: red
+    logo: 'https://icongr.am/devicon/python-original.svg?size=128&color=currentColor'
+    icon:
+        repo: fontawesome/brands/github
+    favicon: 'https://icongr.am/devicon/python-original.svg?size=128&color=currentColor'
+
+    features:
+        - search.highlight
+        - instant
+
+# Add Social links in footer
+extra:
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/kchennen/PythonProject
+          name: GitHub
+        - icon: fontawesome/brands/twitter
+          link: https://twitter.com/<username>
+          name: Twitter
+        - icon: fontawesome/brands/docker
+          link: https://hub.docker.com/u/<username>
+          name: Docker
+
+# Set MkDocs plugins
+plugins:
+    - search:
+        prebuild_index: true
+        min_search_length: 3
+    - mkdocstrings:
+        default_handler: python
+    - git-revision-date-localized:
+          type: iso_date
+          fallback_to_build_date: true
+
+# Set Markdown extensions
+markdown_extensions:
+    # Add an anchor link for each header section
+    - toc:
+        permalink: '#'
+    - markdown_include.include:
+          base_path: docs
+    # Allow the use Emojis
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.details
+    - pymdownx.highlight
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+          custom_checkbox: true
+    - pymdownx.critic:
+          mode: view
+    - pymdownx.betterem:
+            smart_enable: all
+    - pymdownx.caret
+    - pymdownx.mark
+    - pymdownx.tilde
+    - pymdownx.smartsymbols

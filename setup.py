@@ -14,7 +14,7 @@ setup(
     name='PythonProject',                                       # name of the package
     version='0.1.0',                                            # version of this release
     author='kchennen',                                          # package author’s name
-    author_email='kchennen@unistra.fr',                         # email address of the package author
+    author_email='author@mail.com',                             # email address of the package author
     url='https://github.com/kchennen/PythonProject',            # home page for the package
     description='Python project template',                      # short, summary description of the package
     license='MIT',                                              # license for the package

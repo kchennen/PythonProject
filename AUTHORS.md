@@ -1,7 +1,7 @@
 # Credits
 
 ## Development Lead
-* KChennen <kchennen@unistra.fr>
+* Author <author@mail.com>
 
 ## Contributors
 None yet. Why not be the first?
