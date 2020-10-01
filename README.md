@@ -5,6 +5,7 @@ Python project template
 
     PythonProject
     ├── .gitignore         <- Files and directories to be ignored by Git.
+    ├── AUTHORS            <- List of authors and contributors to this project.
     ├── LICENSE            <- Project distribution License.
     ├── CHANGELOG          <- List of curated chronological notable changes.
     ├── pythonproject      <- Source code of interest for this project.
