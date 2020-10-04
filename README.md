@@ -1,8 +1,6 @@
 `TODO: CI buttons showing the state of the build (pypi, build, release, codecov, travis)`
 
 # PythonProject
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkchennen%2FPythonProject.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkchennen%2FPythonProject?ref=badge_shield)
-
 
 Python project template
 
@@ -22,9 +20,6 @@ See full documentation at https://github.com/kchennen/PythonProject/
     ├── pythonproject      <- Source code of interest for this project.
     │   ├── __init__.py    <- Makes a Python module.
     │   └── __main__.py    <- Starting point to run the project in CLI.
-
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkchennen%2FPythonProject.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkchennen%2FPythonProject?ref=badge_large)
 
 ## Quickstart
 
