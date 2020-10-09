@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
-# This is a sample Python script.
 
 def main(name='World'):
-    print('Hello, {name}!'.format(name=name))  # Press Ctrl+F8 to toggle the breakpoint.
+    result = 'Hello, {name}!'.format(name=name)
+    print(result)
+    return result
 
 
 if __name__ == '__main__':

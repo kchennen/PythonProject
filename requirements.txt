@@ -1,3 +1,9 @@
+tox==3.20.0
+pytest==6.1.0
+pytest-xdist==2.1.0     # send tests to multiple CPUs
+coverage==5.3
+argh==0.26.2
+watchdog
 mkdocs==1.1.2
 mkdocs-material==6.0.1
 mkdocstrings==0.13.6
