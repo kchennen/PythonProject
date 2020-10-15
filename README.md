@@ -1,6 +1,7 @@
 `TODO: CI buttons showing the state of the build (pypi, build, release, codecov, travis)`
 
 [![Build Status](https://travis-ci.com/kchennen/PythonProject.svg?branch=master)](https://travis-ci.com/kchennen/PythonProject)
+[![Coverage Status](https://coveralls.io/repos/github/kchennen/PythonProject/badge.svg?branch=master)](https://coveralls.io/github/kchennen/PythonProject?branch=master)
 
 # PythonProject
 
