@@ -18,7 +18,7 @@ setup(
     author='kchennen',                                          # package author’s name
     author_email='author@mail.com',                             # email address of the package author
     description='Python project template',                      # short, summary description of the package
-    long_description=read('README.md'),                         # longer description of the package (used by PyPI when you publish a package, to build its project page)
+    long_description=read('README.md'),                         # longer description package to build PyPi project page
     license='MIT',                                              # license for the package
     keywords=(                                                  # list of keywords describing the package
         "Python, cookiecutter, unittest, project "
@@ -26,7 +26,7 @@ setup(
     ),
     install_requires=requirements(),                            # install external packages as dependencies
     packages=['pythonproject'],                                 # same as name
-    scripts=['bin/pythonproject'],                              # Scripts are files intended to be started from the command line
+    scripts=['bin/pythonproject'],                              # Runner files to be started from the command line
     entry_points={                                              # Register the main() function of the package
         'console_scripts': ['pythonproject=pythonproject.__main__:main'],
     },
@@ -50,5 +50,5 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Topic :: Scientific/Engineering :: Bio-Informatics',
         'Topic :: Scientific/Engineering :: Artificial Intelligence',
-    ],                                          # list of classifiers to categorize each release
+    ],
 )
