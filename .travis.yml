@@ -1,4 +1,9 @@
 language: python
+cache:
+  directories:
+    - $HOME/.cache/pip
+before_cache:
+  - rm -f $HOME/.cache/pip/log/debug.log
 python:
   - "3.8"
 install:
@@ -6,6 +11,5 @@ install:
 script:
   - coverage erase
   - coverage run --source=pythonproject -m unittest discover -v
-
 after_success:
   - coveralls

@@ -12,50 +12,51 @@ See full documentation at https://github.com/kchennen/PythonProject/
 ## Project Organisation
 
     PythonProject
-    ├── .env                     <- Environment variables go here, can be read by `python-dotenv` package
-    ├── .gitignore               <- Files and directories to be ignored by Git.
-    ├── AUTHORS                  <- List of authors and contributors to this project.
-    ├── CHANGELOG                <- List of curated chronological notable changes.
-    ├── LICENSE                  <- Project distribution License.
-    ├── README.md                <- The top-level README for developers using this project.
-    ├── requirements.txt         <- Lsit of the project external dependencies.
-    ├── MANIFEST.in              <- To include extra non-Python files in the source distribution
-    ├── setup.py                 <- Package and distribution management.
+    ├── .env                       <- Environment variables go here, can be read by `python-dotenv` package
+    ├── .gitignore                 <- Files and directories to be ignored by Git.
+    ├── AUTHORS                    <- List of authors and contributors to this project.
+    ├── CHANGELOG                  <- List of curated chronological notable changes.
+    ├── LICENSE                    <- Project distribution License.
+    ├── README.md                  <- The top-level README for developers using this project.
+    ├── requirements.txt           <- Lsit of the project external dependencies.
+    ├── MANIFEST.in                <- To include extra non-Python files in the source distribution
+    ├── setup.py                   <- Package and distribution management.
     │
-    ├── mkdocs.yml               <- MkDocs configuration file.
-    ├── docs                     <- Project documentation in Markdown with MkDocs.
+    ├── mkdocs.yml                 <- MkDocs configuration file.
+    ├── docs                       <- Project documentation in Markdown with MkDocs.
     │
     ├── data
-    │   ├── 0_external           <- Data from third party sources.
-    │   ├── 1_raw                <- The original, immutable data dump.
-    │   ├── 2_interim            <- Intermediate data that has been transformed.
-    │   └── 3_processed          <- The final, canonical data sets for usage.
+    │   ├── 0_external             <- Data from third party sources.
+    │   ├── 1_raw                  <- The original, immutable data dump.
+    │   ├── 2_interim              <- Intermediate data that has been transformed.
+    │   └── 3_processed            <- The final, canonical data sets for usage.
     │
-    ├── pythonproject            <- Source code of interest for this project.
-    │   ├── __init__.py          <- Makes a Python module.
-    │   ├── __main__.py          <- Starting point to run the project in CLI.
-    │   ├── settings.py          <- Script that loads environment variables defined in `.env`.
-    │   └── my_module.py         <- Project module
+    ├── pythonproject              <- Source code of interest for this project.
+    │   ├── __init__.py            <- Makes a Python module.
+    │   ├── __main__.py            <- Starting point to run the project in CLI.
+    │   ├── settings.py            <- Script that loads environment variables defined in `.env`.
+    │   └── my_module.py           <- Project module
     │
-    ├── tests                    <- A directory containing test code and resources to test none regression behaviour
-    │   └── test_module.py       <- Data from third party sources.
-    ├── tox.ini                  <- Describes the test environments you want your project to run in
+    ├── tests                      <- A directory containing test code and resources to test none regression behaviour
+    │   └── test_module.py         <- Data from third party sources.
+    ├── tox.ini                    <- Describes the test environments you want your project to run in
     │
     ├── bin 
-    │   ├── activate_venv.sh    <- Load Python dev virtual environment
-    │   └── pythonproject       <- Project runner script
+    │   ├── activate_venv.sh       <- Load Python dev virtual environment
+    │   ├── watchdog_autotest.sh   <- Watchdog script that automatically launch tests on file changes
+    │   └── pythonproject          <- Project runner script
     │
-    ├── reports                  <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures              <- Generated graphics and figures to be used in reporting
+    ├── reports                    <- Generated analysis as HTML, PDF, LaTeX, etc.
+    │   └── figures                <- Generated graphics and figures to be used in reporting
     │
-    ├── notebooks                <- 
-    │   └── 00_dashboard.ipynb   <- 
+    ├── notebooks                  <- 
+    │   └── 00_dashboard.ipynb     <- 
     │
-    ├── docker                   <- 
+    ├── docker                     <- 
     │    
-    ├── github actions           <- 
+    ├── github actions             <- 
     │
-    └── third_parties            <-
+    └── third_parties              <-
 
 ## Quickstart
 
