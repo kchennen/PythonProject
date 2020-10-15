@@ -7,5 +7,5 @@ script:
   - coverage erase
   - coverage run --source=pythonproject -m unittest discover -v
 
- after_success:
-    - codecov
+after_success:
+  - codecov
