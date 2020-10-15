@@ -1,11 +1,12 @@
-tox==3.20.0
-pytest==6.1.0
+tox==3.20.1
+pytest==6.1.1
+pytest-cov==2.10.1
 pytest-xdist==2.1.0     # send tests to multiple CPUs
 coverage==5.3
 argh==0.26.2
 watchdog
 mkdocs==1.1.2
-mkdocs-material==6.0.1
+mkdocs-material==6.0.2
 mkdocstrings==0.13.6
 markdown-include==0.6.0
 mkdocs-git-revision-date-localized-plugin==0.7.2
