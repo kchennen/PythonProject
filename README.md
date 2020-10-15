@@ -12,12 +12,14 @@ See full documentation at https://github.com/kchennen/PythonProject/
 ## Project Organisation
 
     PythonProject
+    ├── .env                     <- Environment variables go here, can be read by `python-dotenv` package
     ├── .gitignore               <- Files and directories to be ignored by Git.
     ├── AUTHORS                  <- List of authors and contributors to this project.
     ├── CHANGELOG                <- List of curated chronological notable changes.
     ├── LICENSE                  <- Project distribution License.
     ├── README.md                <- The top-level README for developers using this project.
     ├── requirements.txt         <- Lsit of the project external dependencies.
+    ├── MANIFEST.in              <- To include extra non-Python files in the source distribution
     ├── setup.py                 <- Package and distribution management.
     │
     ├── mkdocs.yml               <- MkDocs configuration file.
@@ -32,22 +34,25 @@ See full documentation at https://github.com/kchennen/PythonProject/
     ├── pythonproject            <- Source code of interest for this project.
     │   ├── __init__.py          <- Makes a Python module.
     │   ├── __main__.py          <- Starting point to run the project in CLI.
+    │   ├── settings.py          <- Script that loads environment variables defined in `.env`.
     │   └── my_module.py         <- Project module
     │
     ├── tests                    <- A directory containing test code and resources to test none regression behaviour
     │   └── test_module.py       <- Data from third party sources.
     ├── tox.ini                  <- Describes the test environments you want your project to run in
     │
+    ├── bin 
+    │   ├── activate_venv.sh    <- Load Python dev virtual environment
+    │   └── pythonproject       <- Project runner script
+    │
+    ├── reports                  <- Generated analysis as HTML, PDF, LaTeX, etc.
+    │   └── figures              <- Generated graphics and figures to be used in reporting
+    │
     ├── notebooks                <- 
     │   └── 00_dashboard.ipynb   <- 
     │
-    ├── reports                  <- 
-    │   └── figures              <- 
-    │
     ├── docker                   <- 
     │    
-    ├── MANIFEST                   <- 
-    │
     ├── github actions           <- 
     │
     └── third_parties            <-
