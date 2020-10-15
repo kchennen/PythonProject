@@ -6,7 +6,6 @@ install:
 script:
   - coverage erase
   - coverage run --source=pythonproject -m unittest discover -v
-#    - coverage report -m
 
  after_success:
     - codecov
