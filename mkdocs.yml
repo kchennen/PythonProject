@@ -52,7 +52,6 @@ extra:
 # Set MkDocs plugins
 plugins:
     - search:
-        prebuild_index: true
         min_search_length: 3
     - mkdocstrings:
         default_handler: python
