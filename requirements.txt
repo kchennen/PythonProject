@@ -11,7 +11,7 @@ argh==0.26.2
 watchdog
 mkdocs==1.1.2
 mkdocs-material==6.1.0
-mkdocstrings==0.13.5
+mkdocstrings==0.13.6
 markdown-include==0.6.0
 mkdocs-git-revision-date-localized-plugin==0.7.2
 flake8==3.8.4
