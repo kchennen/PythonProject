@@ -11,7 +11,6 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-Green.svg)](https://GitHub.com/kchennen/PythonProject/graphs/commit-activity)
 
 [![GitHub release](https://img.shields.io/github/release/kchennen/StrapDown.js.svg)](https://GitHub.com/kchennen/StrapDown.js/releases/)
-
 [![PyPI status](https://img.shields.io/pypi/status/PythonProject_KC.svg)](https://pypi.python.org/pypi/PythonProject_KC/)
 [![PyPI version shields.io](https://img.shields.io/pypi/v/PythonProject_KC.svg)](https://pypi.python.org/pypi/PythonProject_KC/)
 [![PyPI version fury.io](https://badge.fury.io/py/PythonProject_KC.svg)](https://pypi.python.org/pypi/PythonProject_KC/)
