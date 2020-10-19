@@ -3,11 +3,26 @@
 .PHONY = help activate create_venv develop setup test run clean
 
 help:
-	@echo "---------------HELP-----------------"
-	@echo "To setup the project type make setup"
-	@echo "To test the project type make test"
-	@echo "To run the project type make run"
-	@echo "------------------------------------"
+	@python -c "import pyfiglet,termcolor; termcolor.cprint(text=pyfiglet.figlet_format(text='PythonProject',font='standard'),color='magenta',attrs=['bold'],)"
+	@echo "-----------------------------------HELP-----------------------------------"
+	@echo "* activate	- Activate virtual environment."
+	@echo "* create_venv	- Create virtual environment."
+	@echo "* develop	- Install application in dev mode."
+	@echo "* install	- Install the application."
+	@echo "* register	- Claim project namespace on PyPi.org."
+	@echo "* install	- Install the package."
+	@echo "* upload	- Upload the package to PyPi.org cloud."
+	@echo "* uninstall	- Remove the package and its dependencies."
+	@echo "* preview_docs	- Preview documentation site."
+	@echo "* build_docs	- Build documentation site."
+	@echo "* test		- Run tests in tox environments."
+	@echo "* test_dev	- Run tests in tox dev environments."
+	@echo "* test_all	- Run all tests in tox environments."
+	@echo "* flake8	- Run Flake8 to test code formatting."
+	@echo "* watch_test	- Watchdog to automatically launch tests on file changes."
+	@echo "* run		- Run package with arguments: make run ARGS='--foo bar'."
+	@echo "* clean		- Clean temporary files."
+	@echo "--------------------------------------------------------------------------"
 
 ENV_PATH = $(shell pwd)
 
@@ -66,10 +81,11 @@ flake8:
 watch_test:
 	watchmedo shell-command --patterns="*.py" --recursive --command="clear; make test_dev" pythonproject
 
-# Run package with arguments: make run ARGS="--foo bar"
+# Run package with arguments: make run ARGS='--foo bar'
 run:
 	pythonproject $(ARGS)
 
+# Clean temporary files
 clean:
 	rm -r .tox *.egg-info* dist site
 
