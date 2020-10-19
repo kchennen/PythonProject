@@ -50,10 +50,10 @@ build_docs:
 
 # Run tests in tox environments
 test:
-	tox -p 0
+	tox -p 0 -e py38
 
 test_dev:
-	tox -p 0 --develop
+	tox -p 0 --develop -e py38
 
 test_all:
 	tox -p 0 -e ALL
