@@ -1,4 +1,3 @@
-`TODO: CI buttons showing the state of the build (pypi, release, Zenodo)`
 
 [![Build Status](https://travis-ci.com/kchennen/PythonProject.svg?branch=master)](https://travis-ci.com/kchennen/PythonProject)
 [![Tests Status](https://github.com/kchennen/PythonProject/workflows/tests/badge.svg)](https://github.com/kchennen/PythonProject/actions)
@@ -16,6 +15,8 @@
 [![PyPI status](https://img.shields.io/pypi/status/PythonProject_KC.svg)](https://pypi.python.org/pypi/PythonProject_KC/)
 [![PyPI version shields.io](https://img.shields.io/pypi/v/PythonProject_KC.svg)](https://pypi.python.org/pypi/PythonProject_KC/)
 [![PyPI version fury.io](https://badge.fury.io/py/PythonProject_KC.svg)](https://pypi.python.org/pypi/PythonProject_KC/)
+
+[![DOI](https://zenodo.org/badge/300061651.svg)](https://zenodo.org/badge/latestdoi/300061651)
 
 # PythonProject
 
