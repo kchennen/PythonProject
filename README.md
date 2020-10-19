@@ -1,6 +1,7 @@
 `TODO: CI buttons showing the state of the build (pypi, build, release, codecov, travis)`
 
 [![Build Status](https://travis-ci.com/kchennen/PythonProject.svg?branch=master)](https://travis-ci.com/kchennen/PythonProject)
+
 [![Coverage Status](https://coveralls.io/repos/github/kchennen/PythonProject/badge.svg?branch=master)](https://coveralls.io/github/kchennen/PythonProject?branch=master)
 
 # PythonProject
@@ -21,6 +22,7 @@ See full documentation at https://github.com/kchennen/PythonProject/
     ├── requirements.txt           <- Lsit of the project external dependencies.
     ├── MANIFEST.in                <- To include extra non-Python files in the source distribution
     ├── setup.py                   <- Package and distribution management.
+    ├── Makefile                   <- Generic manager to automate Setup, Compilation, Testing and Deployment tasks.
     │
     ├── mkdocs.yml                 <- MkDocs configuration file.
     ├── docs                       <- Project documentation in Markdown with MkDocs.
