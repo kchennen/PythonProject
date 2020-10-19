@@ -11,7 +11,7 @@ def requirements():
 
 
 setup(
-    name='PythonProject',                                       # name of the package
+    name='PythonProject_KC',                                    # name of the package
     version='0.1.0',                                            # version of this release
     url='https://github.com/kchennen/PythonProject',            # home page for the package
     download_url='https://github.com/kchennen/PythonProject',   # location where the release version may be downloaded
