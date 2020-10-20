@@ -1,0 +1,27 @@
+image: python:3.8-buster
+
+before_script:
+  - pip install -r requirements.txt
+
+test:
+  stage: test
+  script:
+  - coverage run --source=pythonproject -m unittest discover -v
+  - mkdocs build --strict --verbose --site-dir test
+  - coveralls
+  - codecov
+  artifacts:
+    paths:
+    - test
+  except:
+  - master
+
+#pages:
+#  stage: deploy
+#  script:
+#  - mkdocs build --strict --verbose --site-dir  public
+#  artifacts:
+#    paths:
+#    - public
+#  only:
+#  - master
