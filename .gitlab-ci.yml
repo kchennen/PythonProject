@@ -1,27 +1,32 @@
 image: python:3.8-buster
 
+stages:
+  - test
+  - coverage
+  - deploy
+
 before_script:
   - pip install -r requirements.txt
 
 test:
   stage: test
   script:
-  - coverage run --source=pythonproject -m unittest discover -v
-  - mkdocs build --strict --verbose --site-dir test
-  - coveralls
-  - codecov
+    - make test
+    - make build_docs
+
+coverage:
+  stage: test
+  script:
+    - make test
+    - coverage-badge
+  coverage: '/TOTAL.+ ([0-9]{1,3}%)/'
+
+pages:
+  stage: deploy
+  script:
+    - mkdocs build --strict --verbose --site-dir public
   artifacts:
     paths:
-    - test
-  except:
-  - master
-
-#pages:
-#  stage: deploy
-#  script:
-#  - mkdocs build --strict --verbose --site-dir  public
-#  artifacts:
-#    paths:
-#    - public
-#  only:
-#  - master
+      - public
+  only:
+    - master
