@@ -1,7 +1,9 @@
 
-[![Build Status](https://travis-ci.com/kchennen/PythonProject.svg?branch=master)](https://travis-ci.com/kchennen/PythonProject)
 [![Tests Status](https://github.com/kchennen/PythonProject/workflows/tests/badge.svg)](https://github.com/kchennen/PythonProject/actions)
+[![pipeline status](https://git.unistra.fr/kchennen/PythonProject/badges/master/pipeline.svg)](https://git.unistra.fr/kchennen/PythonProject/-/commits/master)
+[![Build Status](https://travis-ci.com/kchennen/PythonProject.svg?branch=master)](https://travis-ci.com/kchennen/PythonProject)
 [![Coverage Status](https://coveralls.io/repos/github/kchennen/PythonProject/badge.svg?branch=master)](https://coveralls.io/github/kchennen/PythonProject?branch=master)
+[![coverage report](https://git.unistra.fr/kchennen/PythonProject/badges/master/coverage.svg)](https://git.unistra.fr/kchennen/PythonProject/-/commits/master)
 [![codecov.io](https://codecov.io/github/kchennen/PythonProject/coverage.svg?branch=master)](https://codecov.io/github/kchennen/PythonProject)
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/kchennen/PythonProject/blob/master/LICENSE)
@@ -29,6 +31,10 @@ See full documentation at https://github.com/kchennen/PythonProject/
 PythonProject
 ├── .env                       <- Environment variables go here, can be read by `python-dotenv` package
 ├── .gitignore                 <- Files and directories to be ignored by Git.
+│    
+├── .github                    <- Defined workflows for Github Actions
+│   └── workflows              
+│    
 ├── AUTHORS                    <- List of authors and contributors to this project.
 ├── CHANGELOG                  <- List of curated chronological notable changes.
 ├── LICENSE                    <- Project distribution License.
@@ -69,8 +75,6 @@ PythonProject
 │   └── 00_dashboard.ipynb     <- TODO
 │
 ├── docker                     <- TODO
-│    
-├── github actions             <- TODO
 │
 └── third_parties              <- TODO
 ```
