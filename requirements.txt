@@ -6,6 +6,7 @@ pytest-pep8==1.0.6
 codecov==2.1.10
 coveralls==2.1.2
 coverage==5.3
+coverage-badge==1.0.1
 python-dotenv==0.14.0
 argh==0.26.2
 watchdog
