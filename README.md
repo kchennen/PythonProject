@@ -1,7 +1,22 @@
+| Worker | Status |
+| --- | --- |
+| Github Test | [![Tests Status](https://github.com/kchennen/PythonProject/workflows/tests/badge.svg)](https://github.com/kchennen/PythonProject/actions) |
+| Gitlab CI | [![pipeline status](https://git.unistra.fr/kchennen/PythonProject/badges/master/pipeline.svg)](https://git.unistra.fr/kchennen/PythonProject/-/commits/master) |
+| Travis CI | [![Tests Status](https://github.com/kchennen/PythonProject/workflows/tests/badge.svg)](https://github.com/kchennen/PythonProject/actions) |
+| Github coverage | [![Coverage Status](https://coveralls.io/repos/github/kchennen/PythonProject/badge.svg?branch=master)](https://coveralls.io/github/kchennen/PythonProject?branch=master) |
+| Gilab coverage | [![coverage report](https://git.unistra.fr/kchennen/PythonProject/badges/master/coverage.svg)](https://git.unistra.fr/kchennen/PythonProject/-/commits/master) |
+| CodeCov | [![codecov.io](https://codecov.io/github/kchennen/PythonProject/coverage.svg?branch=master)](https://codecov.io/github/kchennen/PythonProject) |
+| License | [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkchennen%2FPythonProject.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkchennen%2FPythonProject?ref=badge_shield) |
+| License | [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/kchennen/PythonProject/blob/master/LICENSE) |
+| Compatibility | ![Python compatibility](https://img.shields.io/pypi/pyversions/PythonProject_KC.svg?label=Python%20Versions) |
+| Maintenance | [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-Green.svg)](https://GitHub.com/kchennen/PythonProject/graphs/commit-activity) |
+| Zenodo | [![DOI](https://zenodo.org/badge/300061651.svg)](https://zenodo.org/badge/latestdoi/300061651) |
+
 
 [![Tests Status](https://github.com/kchennen/PythonProject/workflows/tests/badge.svg)](https://github.com/kchennen/PythonProject/actions)
 [![pipeline status](https://git.unistra.fr/kchennen/PythonProject/badges/master/pipeline.svg)](https://git.unistra.fr/kchennen/PythonProject/-/commits/master)
 [![Build Status](https://travis-ci.com/kchennen/PythonProject.svg?branch=master)](https://travis-ci.com/kchennen/PythonProject)
+
 [![Coverage Status](https://coveralls.io/repos/github/kchennen/PythonProject/badge.svg?branch=master)](https://coveralls.io/github/kchennen/PythonProject?branch=master)
 [![coverage report](https://git.unistra.fr/kchennen/PythonProject/badges/master/coverage.svg)](https://git.unistra.fr/kchennen/PythonProject/-/commits/master)
 [![codecov.io](https://codecov.io/github/kchennen/PythonProject/coverage.svg?branch=master)](https://codecov.io/github/kchennen/PythonProject)
@@ -32,9 +47,6 @@ PythonProject
 ├── .env                       <- Environment variables go here, can be read by `python-dotenv` package
 ├── .gitignore                 <- Files and directories to be ignored by Git.
 │    
-├── .github                    <- Defined workflows for Github Actions
-│   └── workflows              
-│    
 ├── AUTHORS                    <- List of authors and contributors to this project.
 ├── CHANGELOG                  <- List of curated chronological notable changes.
 ├── LICENSE                    <- Project distribution License.
@@ -47,6 +59,16 @@ PythonProject
 ├── mkdocs.yml                 <- MkDocs configuration file.
 ├── docs                       <- Project documentation in Markdown with MkDocs.
 │
+├── .github                    <- Defined workflows for Github Actions
+│   └── workflows              
+├── .gitlab-ci.yml             <- Defined workflows for Github Actions
+├── .travis.yml                <- Defined workflows for Github Actions
+│
+├── bin 
+│   ├── activate_venv.sh       <- Load Python dev virtual environment
+│   ├── watchdog_autotest.sh   <- Watchdog script that automatically launch tests on file changes
+│   └── pythonproject          <- Project runner script
+│    
 ├── data
 │   ├── 0_external             <- Data from third party sources.
 │   ├── 1_raw                  <- The original, immutable data dump.
@@ -62,11 +84,6 @@ PythonProject
 ├── tests                      <- A directory containing test code and resources to test none regression behaviour
 │   └── test_module.py         <- Data from third party sources.
 ├── tox.ini                    <- Describes the test environments you want your project to run in
-│
-├── bin 
-│   ├── activate_venv.sh       <- Load Python dev virtual environment
-│   ├── watchdog_autotest.sh   <- Watchdog script that automatically launch tests on file changes
-│   └── pythonproject          <- Project runner script
 │
 ├── reports                    <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── figures                <- Generated graphics and figures to be used in reporting
