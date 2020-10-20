@@ -63,6 +63,14 @@ preview_docs:
 build_docs:
 	mkdocs build --clean
 
+# Deploy documentation site on Github Pages
+deploy_github_docs:
+	mkdocs gh-deploy
+
+# Deploy documentation site for GitLab Pages
+deploy_gitlab_docs:
+	mkdocs build --strict --verbose --site-dir public
+
 # Run tests in tox environments
 test:
 	tox -p 0 -e py38
@@ -87,14 +95,8 @@ run:
 
 # Clean temporary files
 clean:
-	rm -r .tox *.egg-info* dist site
+	rm -r .tox *.egg-info* dist site .coverage coverage.xml
 
 # Defines the default target that `make` will to try to make, or in the case of a phony target, execute the specified commands
 # This target is executed whenever we just type `make`
 .DEFAULT_GOAL = help
-
-#[testenv:docs-deploy]
-#description = built fresh docs and deploy them
-#deps = {[testenv:docs]deps}
-#basepython = {[testenv:docs]basepython}
-#commands = mkdocs gh-deploy --clean
