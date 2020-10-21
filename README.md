@@ -1,38 +1,12 @@
-| Worker | Status |
+| | |
 | --- | --- |
-| Github Test | [![Tests Status](https://github.com/kchennen/PythonProject/workflows/tests/badge.svg)](https://github.com/kchennen/PythonProject/actions) |
-| Gitlab CI | [![pipeline status](https://git.unistra.fr/kchennen/PythonProject/badges/master/pipeline.svg)](https://git.unistra.fr/kchennen/PythonProject/-/commits/master) |
-| Travis CI | [![Tests Status](https://github.com/kchennen/PythonProject/workflows/tests/badge.svg)](https://github.com/kchennen/PythonProject/actions) |
-| Github coverage | [![Coverage Status](https://coveralls.io/repos/github/kchennen/PythonProject/badge.svg?branch=master)](https://coveralls.io/github/kchennen/PythonProject?branch=master) |
-| Gilab coverage | [![coverage report](https://git.unistra.fr/kchennen/PythonProject/badges/master/coverage.svg)](https://git.unistra.fr/kchennen/PythonProject/-/commits/master) |
-| CodeCov | [![codecov.io](https://codecov.io/github/kchennen/PythonProject/coverage.svg?branch=master)](https://codecov.io/github/kchennen/PythonProject) |
-| License | [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkchennen%2FPythonProject.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkchennen%2FPythonProject?ref=badge_shield) |
-| License | [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/kchennen/PythonProject/blob/master/LICENSE) |
+| Test Status | [![Tests Status](https://github.com/kchennen/PythonProject/workflows/tests/badge.svg)](https://github.com/kchennen/PythonProject/actions) [![pipeline status](https://git.unistra.fr/kchennen/PythonProject/badges/master/pipeline.svg)](https://git.unistra.fr/kchennen/PythonProject/-/commits/master) [![Build Status](https://travis-ci.com/kchennen/PythonProject.svg?branch=master)](https://travis-ci.com/kchennen/PythonProject) |
+| Coverage | [![Coverage Status](https://coveralls.io/repos/github/kchennen/PythonProject/badge.svg?branch=master)](https://coveralls.io/github/kchennen/PythonProject?branch=master) [![coverage report](https://git.unistra.fr/kchennen/PythonProject/badges/master/coverage.svg)](https://git.unistra.fr/kchennen/PythonProject/-/commits/master) [![codecov.io](https://codecov.io/github/kchennen/PythonProject/coverage.svg?branch=master)](https://codecov.io/github/kchennen/PythonProject) |
+| License | [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkchennen%2FPythonProject.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkchennen%2FPythonProject?ref=badge_shield) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/kchennen/PythonProject/blob/master/LICENSE) |
+| Version info | [![GitHub release](https://img.shields.io/github/release/kchennen/PythonProject.svg)](https://GitHub.com/kchennen/PythonProject/releases/) [![PyPI version shields.io](https://img.shields.io/pypi/v/PythonProject_KC.svg)](https://pypi.python.org/pypi/PythonProject_KC/) [![PyPI status](https://img.shields.io/pypi/status/PythonProject_KC.svg)](https://pypi.python.org/pypi/PythonProject_KC/) |
 | Compatibility | ![Python compatibility](https://img.shields.io/pypi/pyversions/PythonProject_KC.svg?label=Python%20Versions) |
 | Maintenance | [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-Green.svg)](https://GitHub.com/kchennen/PythonProject/graphs/commit-activity) |
 | Zenodo | [![DOI](https://zenodo.org/badge/300061651.svg)](https://zenodo.org/badge/latestdoi/300061651) |
-
-
-[![Tests Status](https://github.com/kchennen/PythonProject/workflows/tests/badge.svg)](https://github.com/kchennen/PythonProject/actions)
-[![pipeline status](https://git.unistra.fr/kchennen/PythonProject/badges/master/pipeline.svg)](https://git.unistra.fr/kchennen/PythonProject/-/commits/master)
-[![Build Status](https://travis-ci.com/kchennen/PythonProject.svg?branch=master)](https://travis-ci.com/kchennen/PythonProject)
-
-[![Coverage Status](https://coveralls.io/repos/github/kchennen/PythonProject/badge.svg?branch=master)](https://coveralls.io/github/kchennen/PythonProject?branch=master)
-[![coverage report](https://git.unistra.fr/kchennen/PythonProject/badges/master/coverage.svg)](https://git.unistra.fr/kchennen/PythonProject/-/commits/master)
-[![codecov.io](https://codecov.io/github/kchennen/PythonProject/coverage.svg?branch=master)](https://codecov.io/github/kchennen/PythonProject)
-
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/kchennen/PythonProject/blob/master/LICENSE)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkchennen%2FPythonProject.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkchennen%2FPythonProject?ref=badge_shield)
-
-![Python compatibility](https://img.shields.io/pypi/pyversions/PythonProject_KC.svg?label=Python%20Versions)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-Green.svg)](https://GitHub.com/kchennen/PythonProject/graphs/commit-activity)
-
-[![GitHub release](https://img.shields.io/github/release/kchennen/StrapDown.js.svg)](https://GitHub.com/kchennen/StrapDown.js/releases/)
-[![PyPI status](https://img.shields.io/pypi/status/PythonProject_KC.svg)](https://pypi.python.org/pypi/PythonProject_KC/)
-[![PyPI version shields.io](https://img.shields.io/pypi/v/PythonProject_KC.svg)](https://pypi.python.org/pypi/PythonProject_KC/)
-[![PyPI version fury.io](https://badge.fury.io/py/PythonProject_KC.svg)](https://pypi.python.org/pypi/PythonProject_KC/)
-
-[![DOI](https://zenodo.org/badge/300061651.svg)](https://zenodo.org/badge/latestdoi/300061651)
 
 # PythonProject
 
@@ -88,8 +62,8 @@ PythonProject
 ├── reports                    <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── figures                <- Generated graphics and figures to be used in reporting
 │
-├── notebooks                  <- TODO
-│   └── 00_dashboard.ipynb     <- TODO
+├── notebooks                  <- Jupyter Notebook
+│   └── 00_dashboard.ipynb     
 │
 ├── docker                     <- TODO
 │
@@ -111,9 +85,6 @@ PythonProject
 ## TODO
 - [ ] Write README
 - [ ] Quickstart doc (how to quickly install and use your project)
-- [ ] TravisCI buttons
-- [ ] Deploy on GitHub
-- [ ] host doc site
 
 ## License
 ⚖️🔓 [MIT license](LICENSE)

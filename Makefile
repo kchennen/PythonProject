@@ -26,14 +26,20 @@ help:
 
 ENV_PATH = $(shell pwd)
 
+init:
+	pip install -r init_requirements.txt
+	virtualenv --version
+	virtualenv venv
+	bash --rcfile "venv/bin/activate"
+
 
 # Activate virtual environment
 activate:
 	./bin/activate_venv.sh
 
 # Create virtual environment
-create_venv:
-	virtualenv venv
+init_venv:
+	pip install -r requirements.txt
 
 # Install application in dev mode, i.e that updates with the code change without having to reinstall the package.
 develop:

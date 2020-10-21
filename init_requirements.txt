@@ -1,0 +1,4 @@
+virtualenv==20.0.35
+tox==3.20.1
+watchdog
+mkdocs==1.1.2
